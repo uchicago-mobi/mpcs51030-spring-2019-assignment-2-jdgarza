@@ -78,14 +78,10 @@ class ViewController: UIViewController {
 extension ViewController: UIScrollViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         var animal = animals[0]
-        
         var offset = Int(scrollView.contentOffset.x)
         var screen = Int(offset / 375)
-        
         animal = animals[ screen ]
-        
         offset = offset % 375
-        
         let opacity = CGFloat(offset) / 188.0
         
         speciesLabel.text = animal.species
