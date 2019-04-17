@@ -17,6 +17,7 @@
 		5203843622655E7B00CAFA41 /* wolf5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5203843522655E7B00CAFA41 /* wolf5.mp3 */; };
 		5203843822655E9F00CAFA41 /* ofarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5203843722655E9F00CAFA41 /* ofarm.mp3 */; };
 		5203843A2266091C00CAFA41 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520384392266091C00CAFA41 /* Animal.swift */; };
+		5203843D2267AE6F00CAFA41 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5203843C2267AE6F00CAFA41 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5203843522655E7B00CAFA41 /* wolf5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wolf5.mp3; sourceTree = "<group>"; };
 		5203843722655E9F00CAFA41 /* ofarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ofarm.mp3; sourceTree = "<group>"; };
 		520384392266091C00CAFA41 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		5203843C2267AE6F00CAFA41 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		5203840622654ED300CAFA41 = {
 			isa = PBXGroup;
 			children = (
+				5203843C2267AE6F00CAFA41 /* README.md */,
 				5203841122654ED300CAFA41 /* ItsAZooInThere */,
 				5203842622654ED400CAFA41 /* ItsAZooInThereTests */,
 				5203841022654ED300CAFA41 /* Products */,
@@ -200,6 +203,7 @@
 				5203843622655E7B00CAFA41 /* wolf5.mp3 in Resources */,
 				5203841D22654ED400CAFA41 /* LaunchScreen.storyboard in Resources */,
 				5203841A22654ED400CAFA41 /* Assets.xcassets in Resources */,
+				5203843D2267AE6F00CAFA41 /* README.md in Resources */,
 				5203843422655E2C00CAFA41 /* Cow Mooing.mp3 in Resources */,
 				5203843822655E9F00CAFA41 /* ofarm.mp3 in Resources */,
 				5203841822654ED300CAFA41 /* Main.storyboard in Resources */,
