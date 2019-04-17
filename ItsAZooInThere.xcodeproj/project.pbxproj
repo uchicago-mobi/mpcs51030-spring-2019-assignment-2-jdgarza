@@ -13,6 +13,10 @@
 		5203841A22654ED400CAFA41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5203841922654ED400CAFA41 /* Assets.xcassets */; };
 		5203841D22654ED400CAFA41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5203841B22654ED400CAFA41 /* LaunchScreen.storyboard */; };
 		5203842822654ED400CAFA41 /* ItsAZooInThereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5203842722654ED400CAFA41 /* ItsAZooInThereTests.swift */; };
+		5203843422655E2C00CAFA41 /* Cow Mooing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5203843322655E2C00CAFA41 /* Cow Mooing.mp3 */; };
+		5203843622655E7B00CAFA41 /* wolf5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5203843522655E7B00CAFA41 /* wolf5.mp3 */; };
+		5203843822655E9F00CAFA41 /* ofarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5203843722655E9F00CAFA41 /* ofarm.mp3 */; };
+		5203843A2266091C00CAFA41 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520384392266091C00CAFA41 /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		5203842322654ED400CAFA41 /* ItsAZooInThereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItsAZooInThereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5203842722654ED400CAFA41 /* ItsAZooInThereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItsAZooInThereTests.swift; sourceTree = "<group>"; };
 		5203842922654ED400CAFA41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5203843322655E2C00CAFA41 /* Cow Mooing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cow Mooing.mp3"; sourceTree = "<group>"; };
+		5203843522655E7B00CAFA41 /* wolf5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wolf5.mp3; sourceTree = "<group>"; };
+		5203843722655E9F00CAFA41 /* ofarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ofarm.mp3; sourceTree = "<group>"; };
+		520384392266091C00CAFA41 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +85,14 @@
 		5203841122654ED300CAFA41 /* ItsAZooInThere */ = {
 			isa = PBXGroup;
 			children = (
+				5203843222655D7C00CAFA41 /* Sounds */,
 				5203841222654ED300CAFA41 /* AppDelegate.swift */,
 				5203841422654ED300CAFA41 /* ViewController.swift */,
 				5203841622654ED300CAFA41 /* Main.storyboard */,
 				5203841922654ED400CAFA41 /* Assets.xcassets */,
 				5203841B22654ED400CAFA41 /* LaunchScreen.storyboard */,
 				5203841E22654ED400CAFA41 /* Info.plist */,
+				520384392266091C00CAFA41 /* Animal.swift */,
 			);
 			path = ItsAZooInThere;
 			sourceTree = "<group>";
@@ -94,6 +104,16 @@
 				5203842922654ED400CAFA41 /* Info.plist */,
 			);
 			path = ItsAZooInThereTests;
+			sourceTree = "<group>";
+		};
+		5203843222655D7C00CAFA41 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5203843722655E9F00CAFA41 /* ofarm.mp3 */,
+				5203843522655E7B00CAFA41 /* wolf5.mp3 */,
+				5203843322655E2C00CAFA41 /* Cow Mooing.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,8 +197,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5203843622655E7B00CAFA41 /* wolf5.mp3 in Resources */,
 				5203841D22654ED400CAFA41 /* LaunchScreen.storyboard in Resources */,
 				5203841A22654ED400CAFA41 /* Assets.xcassets in Resources */,
+				5203843422655E2C00CAFA41 /* Cow Mooing.mp3 in Resources */,
+				5203843822655E9F00CAFA41 /* ofarm.mp3 in Resources */,
 				5203841822654ED300CAFA41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,6 +222,7 @@
 			files = (
 				5203841522654ED300CAFA41 /* ViewController.swift in Sources */,
 				5203841322654ED300CAFA41 /* AppDelegate.swift in Sources */,
+				5203843A2266091C00CAFA41 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
